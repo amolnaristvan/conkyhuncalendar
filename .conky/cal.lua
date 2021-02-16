@@ -9,18 +9,18 @@ daystart = os.date("*t",os.time{year=year,month=month,day=7}).wday
 
 month_name = os.date("%B")
 
-if     month_name == "January"   then month_hu = "Január"
-elseif month_name == "February"  then month_hu = "Február"
-elseif month_name == "March"     then month_hu = "Március"
-elseif month_name == "April"     then month_hu = "Április"
-elseif month_name == "May"       then month_hu = "Május"
-elseif month_name == "June"      then month_hu = "Június"
-elseif month_name == "July"      then month_hu = "Július"
-elseif month_name == "August"    then month_hu = "Augusztus"
-elseif month_name == "September" then month_hu = "Szeptember"
-elseif month_name == "October"   then month_hu = "Október"
-elseif month_name == "November"  then month_hu = "November"
-elseif month_name == "December"  then month_hu = "December"
+if     month_name == "January"   then month_hu = "január"
+elseif month_name == "February"  then month_hu = "február"
+elseif month_name == "March"     then month_hu = "március"
+elseif month_name == "April"     then month_hu = "április"
+elseif month_name == "May"       then month_hu = "május"
+elseif month_name == "June"      then month_hu = "június"
+elseif month_name == "July"      then month_hu = "július"
+elseif month_name == "August"    then month_hu = "augusztus"
+elseif month_name == "September" then month_hu = "szeptember"
+elseif month_name == "October"   then month_hu = "október"
+elseif month_name == "November"  then month_hu = "november"
+elseif month_name == "December"  then month_hu = "december"
 end
 
 
