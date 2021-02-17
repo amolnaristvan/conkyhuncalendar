@@ -1,4 +1,4 @@
-# Magyar névnap naptár és óra a conkyhoz.
+# Magyar névnap naptár és óra a conkyhoz
 
 ## Telepítés
 
@@ -11,4 +11,4 @@ conky -c clock_conky.conf
 ```
 ## Képernyőkép
 
-![Képernyőkép](Képernyőkép_2021-02-15_10-22-23.png)
+![Képernyőkép](Képernyőkép_2021-02-17_16-57-24.png)
