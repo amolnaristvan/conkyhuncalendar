@@ -17,25 +17,25 @@ clock_vars = {
     border_out = true,       --iIf "true", border is drawn outside clock radius [false]
     line_width = 2,           -- used for marks, and default border width [2]
     color = 0xC6C6C6,         -- border color. [0xffffff]
-    alpha = 1,              -- border alpha [1]
+    alpha = 0.25,              -- border alpha [1]
 
     hours_num = 12,           -- options: "12" or "24" [12]
     color_hands = nil,        -- hour and minute hands color [color]
-    alpha_hands = 1,        -- hour and minute hands alpha [1]
+    alpha_hands = 0.25,        -- hour and minute hands alpha [1]
     color_sec = 0xff0000,     -- seconds hand color [color]
-    alpha_sec = 0.5,          -- seconds hand alpha [1]
+    alpha_sec = 0.25,          -- seconds hand alpha [1]
     color_face = nil,         -- clock face color [0xffffff]
     alpha_face = 0.25,        -- clock face alpha [0.5]
     color_marks = nil,        -- hour and minute marks color [color]
-    alpha_marks = nil,        -- hour and minute marks alpha [alpha]
+    alpha_marks = 0.25,        -- hour and minute marks alpha [alpha]
     color_center = nil,       -- center spot color [color]
-    alpha_center = nil,       -- center spot alpha [1]
+    alpha_center = 0.25,       -- center spot alpha [1]
 
     numerals = true,          -- write hour numerals    [false]
     text_radius = 0.8,        -- % radius of numerals from center [0.75]
     font_name = "Ubuntu Mono",    -- ["Noto Sans"]
     font_size = 14,           -- [12]
-    font_color = nil,         -- [color]
+    font_color = 0x575757,         -- [color]
     font_alpha = 1,         -- [alpha]
     italic = true,           -- [false]
     oblique = false,          -- [false]
@@ -57,4 +57,3 @@ clock_vars = {
     hand_style = 0,               -- cap shape of hands, 0="round" or 1="square" [1]
   },
 }
-
