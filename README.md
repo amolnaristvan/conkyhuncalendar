@@ -6,6 +6,7 @@ A `conky` telepítése után `.conky` mappát egyszerűen át kell másolni a sa
 
 ```
 cd .conky
+chmod +x cal.lua
 conky -c clock_conky.conf 
 ```
 ## Képernyőkép
